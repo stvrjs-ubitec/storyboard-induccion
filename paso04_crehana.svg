@@ -1,0 +1,39 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D1B2A"/>
+      <stop offset="100%" style="stop-color:#1B2838"/>
+    </linearGradient>
+    <linearGradient id="card4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E3A5F"/>
+      <stop offset="100%" style="stop-color:#152A45"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg4)"/>
+  <rect x="50" y="50" width="700" height="500" rx="24" fill="url(#card4)" stroke="#EF4444" stroke-width="1" stroke-opacity="0.2"/>
+  <rect x="100" y="150" width="180" height="180" rx="20" fill="#0D1B2A"/>
+  <!-- Dashboard Grid Icon -->
+  <rect x="125" y="175" width="60" height="50" rx="6" stroke="#3B82F6" stroke-width="4" fill="none"/>
+  <rect x="195" y="175" width="60" height="50" rx="6" stroke="#10B981" stroke-width="4" fill="none"/>
+  <rect x="125" y="235" width="60" height="50" rx="6" stroke="#F59E0B" stroke-width="4" fill="none"/>
+  <rect x="195" y="235" width="60" height="50" rx="6" stroke="#EF4444" stroke-width="4" fill="none"/>
+  <circle cx="155" cy="200" r="10" fill="#3B82F6"/>
+  <circle cx="225" cy="200" r="10" fill="#10B981"/>
+  <circle cx="155" cy="260" r="10" fill="#F59E0B"/>
+  <circle cx="225" cy="260" r="10" fill="#EF4444"/>
+  <rect x="130" y="360" width="120" height="45" rx="22" fill="#EF4444"/>
+  <text x="190" y="390" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">PASO 04</text>
+  <text x="330" y="180" fill="#E0E8F0" font-family="Georgia, serif" font-size="36">Flujo en Crehana</text>
+  <rect x="330" y="200" width="80" height="5" rx="2" fill="#EF4444"/>
+  <text x="330" y="260" fill="#94A3B8" font-family="Arial, sans-serif" font-size="16">
+    <tspan x="330" dy="0">Gestión del proceso formativo en la plataforma</tspan>
+    <tspan x="330" dy="26">Crehana con seguimiento semanal del avance</tspan>
+    <tspan x="330" dy="26">y cumplimiento de cursos asignados.</tspan>
+  </text>
+  <rect x="330" y="380" width="110" height="36" rx="18" fill="#1E3A5F" stroke="#EF4444" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="385" y="404" text-anchor="middle" fill="#E0E8F0" font-family="Arial, sans-serif" font-size="13">📊 Dashboard</text>
+  <rect x="455" y="380" width="95" height="36" rx="18" fill="#1E3A5F" stroke="#EF4444" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="502" y="404" text-anchor="middle" fill="#E0E8F0" font-family="Arial, sans-serif" font-size="13">📈 Control</text>
+  <rect x="565" y="380" width="100" height="36" rx="18" fill="#1E3A5F" stroke="#EF4444" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="615" y="404" text-anchor="middle" fill="#E0E8F0" font-family="Arial, sans-serif" font-size="13">🗓️ Semanal</text>
+</svg>

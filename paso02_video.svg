@@ -1,0 +1,37 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D1B2A"/>
+      <stop offset="100%" style="stop-color:#1B2838"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E3A5F"/>
+      <stop offset="100%" style="stop-color:#152A45"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg2)"/>
+  <rect x="50" y="50" width="700" height="500" rx="24" fill="url(#card2)" stroke="#10B981" stroke-width="1" stroke-opacity="0.2"/>
+  <rect x="100" y="150" width="180" height="180" rx="20" fill="#0D1B2A"/>
+  <!-- Video Icon -->
+  <rect x="120" y="180" width="140" height="90" rx="10" stroke="#3B82F6" stroke-width="5" fill="none"/>
+  <polygon points="175,210 175,250 210,230" fill="#10B981"/>
+  <rect x="125" y="280" width="25" height="12" rx="3" fill="#94A3B8"/>
+  <rect x="158" y="280" width="25" height="12" rx="3" fill="#94A3B8"/>
+  <rect x="191" y="280" width="25" height="12" rx="3" fill="#94A3B8"/>
+  <rect x="224" y="280" width="30" height="12" rx="3" fill="#F59E0B"/>
+  <rect x="130" y="360" width="120" height="45" rx="22" fill="#10B981"/>
+  <text x="190" y="390" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">PASO 02</text>
+  <text x="330" y="180" fill="#E0E8F0" font-family="Georgia, serif" font-size="36">Video del Plan de Inducción</text>
+  <rect x="330" y="200" width="80" height="5" rx="2" fill="#10B981"/>
+  <text x="330" y="260" fill="#94A3B8" font-family="Arial, sans-serif" font-size="16">
+    <tspan x="330" dy="0">Contenido audiovisual creativo que presenta</tspan>
+    <tspan x="330" dy="26">de manera dinámica y atractiva el proceso de</tspan>
+    <tspan x="330" dy="26">incorporación, cultura y valores de la empresa.</tspan>
+  </text>
+  <rect x="330" y="380" width="90" height="36" rx="18" fill="#1E3A5F" stroke="#10B981" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="375" y="404" text-anchor="middle" fill="#E0E8F0" font-family="Arial, sans-serif" font-size="13">🎬 Video</text>
+  <rect x="435" y="380" width="100" height="36" rx="18" fill="#1E3A5F" stroke="#10B981" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="485" y="404" text-anchor="middle" fill="#E0E8F0" font-family="Arial, sans-serif" font-size="13">🎨 Creativo</text>
+  <rect x="550" y="380" width="90" height="36" rx="18" fill="#1E3A5F" stroke="#10B981" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="595" y="404" text-anchor="middle" fill="#E0E8F0" font-family="Arial, sans-serif" font-size="13">💡 Visual</text>
+</svg>

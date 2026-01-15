@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Storyboard - Proceso de Inducción</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #0D1B2A 0%, #1B2838 100%);
+      min-height: 100vh;
+      padding: 40px;
+      color: #E0E8F0;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .header .badge {
+      display: inline-block;
+      font-size: 12px;
+      letter-spacing: 4px;
+      color: #10B981;
+      margin-bottom: 15px;
+    }
+    .header h1 {
+      font-size: 42px;
+      font-weight: 300;
+      margin-bottom: 10px;
+      font-family: Georgia, serif;
+    }
+    .header .subtitle {
+      font-size: 16px;
+      color: #94A3B8;
+    }
+    .divider {
+      width: 80px;
+      height: 4px;
+      background: linear-gradient(90deg, #3B82F6, #10B981);
+      margin: 20px auto;
+      border-radius: 2px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      gap: 30px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    .card {
+      background: linear-gradient(145deg, #1E3A5F 0%, #152A45 100%);
+      border-radius: 20px;
+      padding: 30px;
+      display: flex;
+      gap: 25px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border: 1px solid rgba(59, 130, 246, 0.1);
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    }
+    .icon-container {
+      flex-shrink: 0;
+      width: 100px;
+      height: 100px;
+      background: linear-gradient(135deg, #0D1B2A 0%, #1B2838 100%);
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: inset 0 2px 10px rgba(0,0,0,0.3);
+    }
+    .content {
+      flex: 1;
+    }
+    .step-badge {
+      display: inline-block;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 11px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      margin-bottom: 12px;
+    }
+    .step-1 { background: #3B82F6; }
+    .step-2 { background: #10B981; }
+    .step-3 { background: #F59E0B; }
+    .step-4 { background: #EF4444; }
+    .step-5 { background: #8B5CF6; }
+    .step-6 { background: #EC4899; }
+    .step-7 { background: #14B8A6; }
+    .step-8 { background: #F59E0B; }
+    .card h3 {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 10px;
+      font-family: Georgia, serif;
+    }
+    .card p {
+      font-size: 14px;
+      color: #94A3B8;
+      line-height: 1.5;
+      margin-bottom: 15px;
+    }
+    .tags {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .tag {
+      padding: 5px 12px;
+      background: rgba(59, 130, 246, 0.15);
+      border-radius: 12px;
+      font-size: 12px;
+      color: #E0E8F0;
+    }
+    svg { display: block; }
+    .footer {
+      text-align: center;
+      margin-top: 50px;
+      color: #64748B;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="badge">STORYBOARD</div>
+    <h1>Proceso de Inducción</h1>
+    <div class="divider"></div>
+    <p class="subtitle">Guía Visual del Onboarding - 8 Pasos</p>
+  </div>
+
+  <div class="grid">
+    <!-- PASO 1 -->
+    <div class="card">
+      <div class="icon-container">
+        <svg width="60" height="60" viewBox="0 0 120 120" fill="none">
+          <rect x="25" y="15" width="70" height="90" rx="8" stroke="#3B82F6" stroke-width="4" fill="none"/>
+          <path d="M40 45 L50 55 L70 35" stroke="#10B981" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="40" y1="65" x2="80" y2="65" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+          <line x1="40" y1="80" x2="70" y2="80" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="content">
+        <span class="step-badge step-1">PASO 01</span>
+        <h3>Check List de Inducción</h3>
+        <p>Lista estructurada de tareas y documentos esenciales que el nuevo colaborador debe completar durante su proceso de incorporación.</p>
+        <div class="tags">
+          <span class="tag">📋 Documentos</span>
+          <span class="tag">✅ Tareas</span>
+          <span class="tag">📅 Plazos</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- PASO 2 -->
+    <div class="card">
+      <div class="icon-container">
+        <svg width="60" height="60" viewBox="0 0 120 120" fill="none">
+          <rect x="15" y="25" width="90" height="60" rx="8" stroke="#3B82F6" stroke-width="4" fill="none"/>
+          <polygon points="55,45 55,75 80,60" fill="#10B981"/>
+          <rect x="20" y="90" width="15" height="8" rx="2" fill="#94A3B8"/>
+          <rect x="40" y="90" width="15" height="8" rx="2" fill="#94A3B8"/>
+          <rect x="60" y="90" width="15" height="8" rx="2" fill="#94A3B8"/>
+          <rect x="80" y="90" width="20" height="8" rx="2" fill="#F59E0B"/>
+        </svg>
+      </div>
+      <div class="content">
+        <span class="step-badge step-2">PASO 02</span>
+        <h3>Video del Plan de Inducción</h3>
+        <p>Contenido audiovisual creativo que presenta de manera dinámica y atractiva el proceso de incorporación, cultura y valores de la empresa.</p>
+        <div class="tags">
+          <span class="tag">🎬 Video</span>
+          <span class="tag">🎨 Creativo</span>
+          <span class="tag">💡 Visual</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- PASO 3 -->
+    <div class="card">
+      <div class="icon-container">
+        <svg width="60" height="60" viewBox="0 0 120 120" fill="none">
+          <path d="M20 90 Q40 70 50 75 T80 50 T100 30" stroke="#3B82F6" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <circle cx="20" cy="90" r="8" fill="#10B981"/>
+          <circle cx="50" cy="75" r="8" fill="#F59E0B"/>
+          <circle cx="80" cy="50" r="8" fill="#3B82F6"/>
+          <circle cx="100" cy="30" r="10" fill="#10B981"/>
+          <path d="M95 25 L105 30 L100 40" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="content">
+        <span class="step-badge step-3">PASO 03</span>
+        <h3>Ruta de Aprendizaje</h3>
+        <p>Camino estructurado con expectativas claras, herramientas necesarias y lista de tareas para el desarrollo del nuevo colaborador.</p>
+        <div class="tags">
+          <span class="tag">🎯 Expectativas</span>
+          <span class="tag">🔧 Herramientas</span>
+          <span class="tag">📝 Tareas</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- PASO 4 -->
+    <div class="card">
+      <div class="icon-container">
+        <svg width="60" height="60" viewBox="0 0 120 120" fill="none">
+          <rect x="15" y="20" width="40" height="35" rx="4" stroke="#3B82F6" stroke-width="3" fill="none"/>
+          <rect x="65" y="20" width="40" height="35" rx="4" stroke="#10B981" stroke-width="3" fill="none"/>
+          <rect x="15" y="65" width="40" height="35" rx="4" stroke="#F59E0B" stroke-width="3" fill="none"/>
+          <rect x="65" y="65" width="40" height="35" rx="4" stroke="#EF4444" stroke-width="3" fill="none"/>
+          <path d="M55 37 L65 37" stroke="#94A3B8" stroke-width="2" stroke-dasharray="4 2"/>
+          <path d="M35 55 L35 65" stroke="#94A3B8" stroke-width="2" stroke-dasharray="4 2"/>
+          <path d="M85 55 L85 65" stroke="#94A3B8" stroke-width="2" stroke-dasharray="4 2"/>
+          <circle cx="35" cy="37" r="6" fill="#3B82F6"/>
+          <circle cx="85" cy="37" r="6" fill="#10B981"/>
+          <circle cx="35" cy="82" r="6" fill="#F59E0B"/>
+          <circle cx="85" cy="82" r="6" fill="#EF4444"/>
+        </svg>
+      </div>
+      <div class="content">
+        <span class="step-badge step-4">PASO 04</span>
+        <h3>Flujo en Crehana</h3>
+        <p>Gestión del proceso formativo en la plataforma Crehana con seguimiento semanal del avance y cumplimiento de cursos asignados.</p>
+        <div class="tags">
+          <span class="tag">📊 Dashboard</span>
+          <span class="tag">📈 Control</span>
+          <span class="tag">🗓️ Semanal</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- PASO 5 -->
+    <div class="card">
+      <div class="icon-container">
+        <svg width="60" height="60" viewBox="0 0 120 120" fill="none">
+          <path d="M20 30 L20 70 Q20 80 30 80 L40 80 L50 95 L55 80 L90 80 Q100 80 100 70 L100 30 Q100 20 90 20 L30 20 Q20 20 20 30Z" stroke="#3B82F6" stroke-width="4" fill="none"/>
+          <circle cx="45" cy="50" r="6" fill="#10B981"/>
+          <circle cx="60" cy="50" r="6" fill="#F59E0B"/>
+          <circle cx="75" cy="50" r="6" fill="#EF4444"/>
+        </svg>
+      </div>
+      <div class="content">
+        <span class="step-badge step-5">PASO 05</span>
+        <h3>Chat Centralizado</h3>
+        <p>Canal único de comunicación donde el nuevo colaborador puede contactar al personal de apoyo y resolver dudas de forma ágil.</p>
+        <div class="tags">
+          <span class="tag">💬 Chat</span>
+          <span class="tag">👥 Soporte</span>
+          <span class="tag">⚡ Rápido</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- PASO 6 -->
+    <div class="card">
+      <div class="icon-container">
+        <svg width="60" height="60" viewBox="0 0 120 120" fill="none">
+          <rect x="20" y="25" width="80" height="70" rx="6" stroke="#3B82F6" stroke-width="4" fill="none"/>
+          <line x1="20" y1="45" x2="100" y2="45" stroke="#3B82F6" stroke-width="2"/>
+          <circle cx="35" cy="35" r="4" fill="#EF4444"/>
+          <circle cx="50" cy="35" r="4" fill="#F59E0B"/>
+          <circle cx="65" cy="35" r="4" fill="#10B981"/>
+          <rect x="30" y="55" width="25" height="15" rx="3" fill="#10B981" opacity="0.7"/>
+          <rect x="65" y="55" width="25" height="15" rx="3" fill="#3B82F6" opacity="0.7"/>
+          <rect x="30" y="75" width="25" height="15" rx="3" fill="#F59E0B" opacity="0.7"/>
+          <rect x="65" y="75" width="25" height="15" rx="3" fill="#8B5CF6" opacity="0.7"/>
+        </svg>
+      </div>
+      <div class="content">
+        <span class="step-badge step-6">PASO 06</span>
+        <h3>Reuniones 1-1</h3>
+        <p>Agenda de reuniones individuales entre líderes y nuevos talentos, programadas anticipadamente para garantizar acompañamiento personalizado.</p>
+        <div class="tags">
+          <span class="tag">📅 Calendario</span>
+          <span class="tag">🤝 1 a 1</span>
+          <span class="tag">👤 Personal</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- PASO 7 -->
+    <div class="card">
+      <div class="icon-container">
+        <svg width="60" height="60" viewBox="0 0 120 120" fill="none">
+          <circle cx="60" cy="60" r="35" stroke="#3B82F6" stroke-width="4" fill="none"/>
+          <path d="M60 35 L60 60 L80 60" stroke="#10B981" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M45 85 L50 95 L55 85" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M65 85 L70 95 L75 85" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="95" cy="30" r="12" fill="#10B981"/>
+          <path d="M90 30 L93 33 L100 26" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="content">
+        <span class="step-badge step-7">PASO 07</span>
+        <h3>Seguimiento y Feedback</h3>
+        <p>Proceso continuo de retroalimentación mediante formulario anónimo para evaluar y mejorar la experiencia de inducción.</p>
+        <div class="tags">
+          <span class="tag">📝 Form</span>
+          <span class="tag">🔒 Anónimo</span>
+          <span class="tag">🔄 Mejora</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- PASO 8 -->
+    <div class="card">
+      <div class="icon-container">
+        <svg width="60" height="60" viewBox="0 0 120 120" fill="none">
+          <path d="M60 15 L75 45 L108 50 L85 73 L90 105 L60 90 L30 105 L35 73 L12 50 L45 45 Z" stroke="#F59E0B" stroke-width="4" fill="none"/>
+          <circle cx="60" cy="60" r="20" fill="#10B981"/>
+          <path d="M50 60 L57 67 L72 52" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="content">
+        <span class="step-badge step-8">PASO 08</span>
+        <h3>Evaluación Final</h3>
+        <p>Prueba técnica y evaluación de alineación con la cultura NCQ para validar la integración exitosa del nuevo colaborador.</p>
+        <div class="tags">
+          <span class="tag">💻 Técnica</span>
+          <span class="tag">🏢 Cultura</span>
+          <span class="tag">⭐ NCQ</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Storyboard del Proceso de Inducción NCQ • 2025</p>
+  </div>
+</body>
+</html>
